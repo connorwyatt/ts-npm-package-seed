@@ -1,0 +1,11 @@
+/.idea
+/.nyc_output
+/node_modules
+
+/**/!(*.d).ts
+/test
+
+/.gitignore
+/.nycrc
+/tsconfig.json
+/tslint.json
