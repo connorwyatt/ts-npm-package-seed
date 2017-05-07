@@ -11,6 +11,10 @@
     ],
     "no-import-side-effect": false,
     "no-inferrable-types": false,
+    "array-type": [
+      true,
+      "generic"
+    ],
     "prefer-function-over-method": false
   }
 }
