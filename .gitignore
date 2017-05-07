@@ -1,7 +1,8 @@
 /node_modules
 /.nyc_output
 
-/index.js*
+/index.js
 /index.d.ts
-/src/**/*.js*
+/src/**/*.js
 /src/**/*.d.ts
+/test/**/*.js
