@@ -4,7 +4,7 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "npm run build -- --watch",
-    "lint": "tslint -p tsconfig-test.json"
+    "lint": "tslint --project tsconfig-test.json --type-check"
   },
   "devDependencies": {
     "tslint": "^5.2.0",

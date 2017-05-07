@@ -1,13 +1,15 @@
 {
   "defaultSeverity": "error",
   "extends": [
-    "tslint:latest"
+    "tslint:all"
   ],
   "rules": {
     "quotemark": [
       true,
       "single",
       "avoid-escape"
-    ]
+    ],
+    "no-inferrable-types": false,
+    "prefer-function-over-method": false
   }
 }
