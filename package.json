@@ -1,0 +1,11 @@
+{
+  "name": "package-name",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "npm run build -- --watch"
+  },
+  "devDependencies": {
+    "typescript": "^2.3.2"
+  }
+}
