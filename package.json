@@ -4,9 +4,16 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "npm run build -- --watch",
-    "lint": "tslint --project tsconfig-test.json --type-check"
+    "lint": "tslint --project tsconfig-test.json --type-check",
+    "test": "nyc ts-node --project ./test/ ./node_modules/mocha/bin/_mocha ./test/**/*.spec.ts"
   },
   "devDependencies": {
+    "@types/chai": "^3.5.2",
+    "@types/mocha": "^2.2.41",
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "nyc": "^10.3.2",
+    "ts-node": "^3.0.4",
     "tslint": "^5.2.0",
     "typescript": "^2.3.2"
   }

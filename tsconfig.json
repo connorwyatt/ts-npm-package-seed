@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "es2015",
+    "module": "commonjs",
     "moduleResolution": "node",
     "pretty": true,
     "forceConsistentCasingInFileNames": true,
@@ -16,6 +16,6 @@
   },
   "exclude": [
     "node_modules",
-    "**/*.spec.ts"
+    "test"
   ]
 }

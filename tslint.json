@@ -9,6 +9,7 @@
       "single",
       "avoid-escape"
     ],
+    "no-import-side-effect": false,
     "no-inferrable-types": false,
     "prefer-function-over-method": false
   }
